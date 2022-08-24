@@ -1,0 +1,13 @@
+.NavBar{
+   justify-content: space-evenly;
+   display: flex;
+   margin-top: 10px;
+   justify-items: center;
+}
+
+.navBar__links{
+    text-decoration: none;
+    color:black;
+    align-self: center;
+    font-family: montserrat;
+}
