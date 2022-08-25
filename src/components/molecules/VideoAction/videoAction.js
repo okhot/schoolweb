@@ -18,6 +18,10 @@ export default function VideoAction() {
         </button>
        </div>
        <div className="video">
+        <div className="play__button">
+          <span class="material-symbols-outlined">
+           play_arrow
+          </span></div>
        <img src={video} alt="video" />
        </div>
     </div>

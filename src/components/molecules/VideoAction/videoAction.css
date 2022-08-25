@@ -38,3 +38,30 @@
     height: 5px;
     width: 90px;
 }
+
+.play__button{
+    background-color: #8D5CF6;
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play__button span{
+   font-size: 50px;
+   color: aliceblue;
+}
+
+.video{
+    position: relative;
+}
+
+.video img{
+    border-radius: 10%;
+}

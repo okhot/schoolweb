@@ -25,14 +25,13 @@
 
 .navbar__buttons{
    margin-left: 300px;
-   font-size: 50px;
    color: white;
   
 }
 
 .joinus{
     background-color: #8D5CF6;
-    font-weight:bold;
+    font-size: 15px;
     border: none;
     border-radius: 5%;
     color: white;
