@@ -6,12 +6,19 @@ function NavBar (){
   return (
     <div className='NavBar'>
       <h2>BrandName</h2>
-      <Link to ='/' className="navBar__links">Home</Link>
-      <Link to ='/' className="navBar__links">Products</Link> 
-      <Link to ='/' className="navBar__links">Pricing</Link> 
-      <Link to ='/' className="navBar__links">Contacts</Link> 
-      <button className="login">LogIn</button>
-      <button className="signin">SignIn</button>
+<div className="navbar__links">
+      <Link to ='/' className="navbar__link">Home</Link>
+      <Link to ='/' className="navbar__link">Products</Link> 
+      <Link to ='/' className="navbar__link">Pricing</Link> 
+      <Link to ='/' className="navbar__link">Contacts</Link> 
+</div>
+ <div className="navbar__buttons">
+ <button className="signin">SIGN IN</button>
+ <button className="login">JOIN US
+      <span class="material-symbols-outlined">
+       arrow_right_alt
+      </span></button>
+ </div>
     </div>
   )
 }
