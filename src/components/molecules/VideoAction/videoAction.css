@@ -1,0 +1,40 @@
+.video__action{
+    display: flex;
+    flex-direction: row;
+    margin:  190px 210px;
+    gap: 10rem;
+    align-items: center;
+}
+
+.video__description{
+    color: white;
+}
+
+.video__description h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.video__description p{
+    font-size: 20px;
+}
+
+.video__description button{
+    font-weight:bold;
+    background: transparent;
+    cursor: pointer;
+    border: 1px;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    font-size: 20px;
+}
+
+.bar{
+    background-color: red;
+    height: 5px;
+    width: 90px;
+}

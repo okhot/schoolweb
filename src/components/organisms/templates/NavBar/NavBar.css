@@ -30,7 +30,7 @@
   
 }
 
-.login{
+.joinus{
     background-color: #8D5CF6;
     font-weight:bold;
     border: none;
@@ -39,12 +39,14 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    flex-direction: row;
+    align-items: center;
 }
 
-.signin{
+.login{
+    font-size: 20px;
     font-weight:bold;
     background: transparent;
     cursor: pointer;

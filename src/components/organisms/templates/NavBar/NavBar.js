@@ -13,8 +13,8 @@ function NavBar (){
       <Link to ='/' className="navbar__link">Contacts</Link> 
 </div>
  <div className="navbar__buttons">
- <button className="signin">SIGN IN</button>
- <button className="login">JOIN US
+ <button className="login">Login</button>
+ <button className="joinus">JOIN US
       <span class="material-symbols-outlined">
        arrow_right_alt
       </span></button>
