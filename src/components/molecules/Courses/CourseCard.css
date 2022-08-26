@@ -1,0 +1,132 @@
+.course{
+    padding: 0px 5px;
+    display: flex;
+    align-content: center;
+}
+
+.coursecard{
+    background-color: white;
+    align-items: center;
+    border-bottom: 30px;
+    width: 280px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    align-content: center;
+    position: relative;
+}
+
+.image{
+    width: 100%;
+} 
+
+.coursecard__image{
+   position: relative;
+}
+
+.sale{
+    background-color: red;
+    border-radius: 10%;
+    color: white;
+    padding: 3px 7px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.course__icons{
+    justify-content: center;
+    justify-items: stretch;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.icon{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.star{
+    color: yellow;
+}
+
+.course__description{
+  padding: 25px 25px;
+}
+.card__rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    background-color: #26335D;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    border-radius: 25px;
+    align-content: center;
+}
+
+.course__description h4{
+   color: #252B42;
+}
+
+.course__description p{
+    color: #737373;
+}
+
+.downloadSect{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 12px;
+  
+}
+
+.download__text{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.downloadbutton{
+    color: #737373;
+    font-size: 25px;
+}
+
+.heading{
+    color:blueviolet;
+
+}
+
+.price{
+    display: flex;
+    gap: 0.3rem;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 700;   
+}
+
+.price1{
+    color: #BDBDBD;
+}
+
+.discount{
+    color: #FF7B52;
+}
+
+.course__description button{
+    background: transparent;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    border: 2px solid #8D5CF6;
+    padding: 10px;
+    gap: 1rem;
+    color: #8D5CF6;
+}

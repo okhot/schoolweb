@@ -1,0 +1,29 @@
+.advice__cards{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 30px;
+    width: 230px;
+    height: 288px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+
+.advice__cards--shifted {
+    margin-top: 50px;
+}
+
+.advice__cards--highlighted{
+    background-color: blueviolet;
+    color: white;
+}
+
+.bar{
+    height: 2px;
+    width: 35px;
+    background-color: red;
+}
+
+.advice__cards--highlighted .bar{
+    background-color: currentColor;
+}

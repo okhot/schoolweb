@@ -1,0 +1,23 @@
+.PracticeAdvice{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 150px 190px;
+    flex-wrap: wrap;
+}
+
+
+
+.Practice__text{
+    color: white;
+    margin-left: 300px;
+}
+
+.Practice__text h4{
+    color: blue;
+}
+
+.Practice__text h1{
+    font-size: 40px;
+    line-height: 50px;
+}
