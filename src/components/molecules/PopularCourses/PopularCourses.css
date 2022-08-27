@@ -1,0 +1,36 @@
+.popularcourses{
+    display: flex;
+    margin:  190px 250px;
+    gap: 10rem;
+    align-items: center;
+   
+}
+
+.popular__description{
+    color: white
+}
+
+.popular__description h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.popular__description p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.popular__description button{
+    color: #8D5CF6;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 85px;
+    background-color: red;
+}

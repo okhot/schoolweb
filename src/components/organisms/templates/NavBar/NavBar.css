@@ -26,6 +26,7 @@
 .navbar__buttons{
    margin-left: 300px;
    color: white;
+   display: flex;
   
 }
 
@@ -40,8 +41,10 @@
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 5px;
 }
 
 .login{

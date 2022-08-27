@@ -17,7 +17,8 @@ function NavBar (){
  <button className="joinus">JOIN US
       <span class="material-symbols-outlined">
        arrow_right_alt
-      </span></button>
+      </span>
+      </button>
  </div>
     </div>
   )

@@ -9,10 +9,17 @@ import course4 from '../../../../images/course4.png'
 
 export default function CourseSection() {
        return(
-        <section className='coursesection'>
-     
+        <section>
 
-<CourseCard 
+                <div className='header'>
+                <h4>Courses</h4>
+                <h1>Every Client Matters</h1>
+                <p>Problems trying to resolve the conflict between <br />
+                the two major realms of Classical physics: Newtonian mechanics </p>
+                </div>
+
+        <div className='coursesection'>
+        <CourseCard 
         image = {course1}
         sale = {'Sale'}
         heading = {'Join Us'}
@@ -59,6 +66,9 @@ export default function CourseSection() {
         price = {'$16.48'}
         discount = {'$6.48'}
         />
+        </div>
+
+
         </section>
         
        ) 

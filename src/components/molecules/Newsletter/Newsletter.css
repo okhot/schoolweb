@@ -1,0 +1,36 @@
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    margin: 230px 100px;
+    text-align: center;
+    color: white;
+}
+
+.newsletter h4{
+    color: #8D5CF6;
+}
+
+.newsletter h2{
+    font-size: 40px;
+}
+
+.email__bar{
+    height: 58px;
+    width: 688px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.button{
+    width: 117px;
+    height: 64px;
+    font-size: 16px;
+    background-color: #8D5CF6;
+    border: 0px;
+}
+
+.subscribe{
+    text-align: center;
+    display: flex;
+    margin-left: 250px;
+}

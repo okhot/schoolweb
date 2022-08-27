@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    text-align: center;
+}
+
+.team__section{
+    margin: 190px 75px;
+}
+
+.team__section h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.team__description h4{
+    color: #8D5CF6
+}
+
+.team__description p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.team__description{
+   margin-left: 50px;
+   margin-bottom: 30px;
+   color: white;
+}

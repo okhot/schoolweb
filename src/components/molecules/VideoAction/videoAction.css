@@ -1,6 +1,5 @@
 .video__action{
     display: flex;
-    flex-direction: row;
     margin:  190px 210px;
     gap: 10rem;
     align-items: center;

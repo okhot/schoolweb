@@ -1,0 +1,27 @@
+.testimonycard{
+    background-color: white;
+    width: 508px;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+}
+
+.testimony__image{
+    border-radius: 50%;
+}
+
+.testimonycard p{
+    color: #737373;
+}
+
+.testimonycard h4{
+    color: #252B42;
+}
+
+.testimonycard h7{
+    color: #737373;
+}
+
+.icon{
+    color: gold;
+}

@@ -1,0 +1,22 @@
+.testimony{
+    display: flex;
+    align-items: center;
+    
+}
+
+.testimony__info{
+    margin-left: 30px;
+    color: white;
+}
+
+.testimony__info h2{
+    font-size: 30px;
+}
+
+.testimony__info h4{
+    color: #8D5CF6;
+}
+
+.testimonySect{
+    padding: 100px 240px;
+}
