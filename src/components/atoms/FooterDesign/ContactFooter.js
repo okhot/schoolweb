@@ -16,14 +16,15 @@ function ContactFooter() {
         <span class="material-symbols-outlined">
              location_on
         </span>
-        (480) 555-0103
+        4517 Washington Ave. Manchester, <br />
+        Kentucky 39495
       </h6>
       
       <h6>
         <span class="material-symbols-outlined">
              mail
         </span>
-        (480) 555-0103
+        debra.holt@example.com
       </h6>
       
     </div>
