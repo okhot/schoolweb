@@ -1,0 +1,10 @@
+.footertext{
+    color: white;
+    width: 200px;
+    text-align: left;
+}
+
+.footertext h6{
+     font-size: 15px;
+     font-weight: 700;
+}

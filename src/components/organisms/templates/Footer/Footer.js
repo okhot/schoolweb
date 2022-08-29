@@ -1,52 +1,46 @@
 import React from 'react'
 import '../Footer/Footer.css'
-import FooterSect from '../../../molecules/FooterSecet/FooterSect'
+import FooterDesign from '../../../atoms/FooterDesign/FooterDesign'
+import ContactFooter from '../../../atoms/FooterDesign/ContactFooter'
 
 function Footer() {
   return (
-    <section className='footer-container'>
+    <section className='footer'> 
+        <FooterDesign 
+        title='Company Info'
+        footerrow1='About Us'
+        footerrow2='carrers'
+        footerrow3='We are Hiring'
+        footerrow4='Blog'
+        />
 
-      <FooterSect  
-      row1= 'Company Info'
-      row2='About Us'
-      row3='Carrers'
-      row4='We are hiring'
-      row5='Blog'
-      />
+<FooterDesign 
+        title='Legal'
+        footerrow1='About Us'
+        footerrow2='carrers'
+        footerrow3='We are Hiring'
+        footerrow4='Blog'
+        />
 
-      <FooterSect  
-      row1='Company Info'
-      row2='About Us'
-      row3='Carrers'
-      row4='We are hiring'
-      row5='Blog'
-      />
+<FooterDesign 
+        title='Feature'
+        footerrow1='Business Marketing'
+        footerrow2='User Analytics'
+        footerrow3='Live Chat'
+        footerrow4='Unlimited Support'
+        />
 
-      <FooterSect  
-      row1='Company Info'
-      row2='About Us'
-      row3='Carrers'
-      row4='We are hiring'
-      row5='Blog'
-      />
+<FooterDesign 
+        title='Resources'
+        footerrow1='iOs and Android'
+        footerrow2='Watch a demo'
+        footerrow3='Customers'
+        footerrow4='API'
+        />
 
-      <FooterSect  
-      row1='Company Info'
-      row2='About Us'
-      row3='Carrers'
-      row4='We are hiring'
-      row5='Blog'
-      />
-
-    <div>
-    <FooterSect
-      r1='Get In Touch'
-      r2='(480) 555-0103'
-      r3='4517 Washington Ave. Manchester, Kentucky 39495'
-      r4='debra.holt@example.com'
-      />
-     
-    </div>
+        <div>
+         <ContactFooter />
+        </div>
     </section>
   )
 }
