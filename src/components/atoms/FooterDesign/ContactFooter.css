@@ -1,6 +1,7 @@
 .contactfooter{
     color: white;
     margin-bottom: 65px;
+    cursor: pointer;
 }
 
 .contactfooter h6{

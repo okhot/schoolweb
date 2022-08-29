@@ -40,7 +40,7 @@ the two major realms of Classical physics: Newtonian mechanics</p>
     />
 
 <TeamCard 
-     image={team2}
+     image={team3}
      title= 'Julian Jameson'
      position='profession'
      face={face}
@@ -49,7 +49,7 @@ the two major realms of Classical physics: Newtonian mechanics</p>
     />
 
 <TeamCard 
-     image={team3}
+     image={team4}
      title= 'Julian Jameson'
      position='profession'
      face={face}

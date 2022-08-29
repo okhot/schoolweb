@@ -2,6 +2,7 @@
     color: white;
     width: 200px;
     text-align: left;
+    cursor: pointer;
 }
 
 .footertext h6{
